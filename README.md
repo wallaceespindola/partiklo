@@ -6,6 +6,7 @@
 
 *("partiklo" significa "partícula", em esperanto)*
 
+
 Saiba mais sobre o [*Processo Partiklo de Desenvolvimento*](partiklo_process.md) e participe!
 
 ## Sistema de comunicação corporativo.

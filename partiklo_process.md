@@ -42,5 +42,21 @@ Métricas palpáveis e reais são a base do controle do Processo Partiklo e não
 
 Commits e testes de integração são métricas importantes e relacionadas. A quantidade de commits vs falhas em testes podem apontar nós do desenvolvimento. 
 
+# Etapas
+
+O processo *Partiklo* é dividido em etapas de trabalho distintas, cada uma com seus insumos, produtos e técnicas: 
+
+Etapa | Insumo | Produto | Técnicas
+--- | --- | --- | ---
+1 Visão | Insights do cliente | Documento de visão | Entrevistas/brainstorms
+2 Estruturação | Produtos | WBS, doc Arquitetura | Análise top-down
+3 Estimativas | WBS | Atividades estimadas com necessidades de recursos| Pontos de função, Analogia
+4 Orçamento | WBS estimada, necessidades de recursos | Cronograma | PERT / CPM
+5 Construção | WBS estimado, cronograma, arquitetura | Artefatos | TDD, BDD
+6 Avaliação | Sistema | Diferenças | Testes de aceitação
+
+O documento de arquitetura é a "realização" do documento de visão. A WBS deve ter em seu primeiro nível os produtos de trabalho. Se por acaso um produto de trabalho parecer complexo demais, e precisar ser decomposto, então uma nova WBS deve ser criada.
+
+Cada WBS está ligada a um Ciclo de desenvolvimento. Cada WBS é um ciclo, mas pode haver vários ciclos em paralelo, cada um ligado a uma WBS. Cabe ao Gerente do Projeto administrar esse paralelismo, com a ajuda de um Gestor de Configuração.
 
 

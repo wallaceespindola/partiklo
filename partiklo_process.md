@@ -26,9 +26,9 @@ O cronograma detalha um Ciclo iterativo do Partiklo.
 
 ### Ciclos
 
-Cada ciclo iterativo do Partiklo é estimado e controlado por um cronograma, e se refere a uma "partícula" do projeto. Não há prazo pré fixado, como no Scrum. Um CI não é um "Sprint", e seu produto é claramente especificado pela WBS, com cada "partícula", "entregável" e "atividade" bem especificados. 
+Cada ciclo iterativo do Partiklo é estimado e controlado por um cronograma, e se refere a uma "partícula" do projeto. Não há prazo pré fixado como no Scrum. Um CI não é um "Sprint", e seu produto é claramente especificado pela WBS, com cada "partícula", "entregável" e "atividade" bem especificados. 
 
-Durante o ciclo as atividades de Análise, Projeto e Construção são mescladas Sempre visando a integração entre as atividades e o cronograma. As estimativas podem ser feitas utilizando-se "Pontos de função" ou qualquer outra técnica FUNDAMENTADA, exceto tolices, como: Planning Poker. 
+Durante o ciclo as atividades de Análise, Projeto e Construção são mescladas Sempre visando a integração entre as atividades e o cronograma. As estimativas podem ser feitas utilizando-se "Pontos de função" ou qualquer outra técnica FUNDAMENTADA, exceto tolices, como Planning Poker. 
 
 ### Comunicação e status
 
@@ -49,7 +49,7 @@ O processo *Partiklo* é dividido em etapas de trabalho distintas, cada uma com 
 Etapa | Insumo | Produto | Técnicas
 --- | --- | --- | ---
 1 Visão | Insights do cliente | Documento de visão | Entrevistas/brainstorms
-2 Estruturação | Produtos | WBS, doc Arquitetura | Análise top-down
+2 Estruturação | Produtos | WBS, Doc. de Arquitetura | Análise top-down
 3 Estimativas | WBS | Atividades estimadas com necessidades de recursos| Pontos de função, Analogia
 4 Orçamento | WBS estimada, necessidades de recursos | Cronograma | PERT / CPM
 5 Construção | WBS estimado, cronograma, arquitetura | Artefatos | TDD, BDD
@@ -57,6 +57,6 @@ Etapa | Insumo | Produto | Técnicas
 
 O documento de arquitetura é a "realização" do documento de visão. A WBS deve ter em seu primeiro nível os produtos de trabalho. Se por acaso um produto de trabalho parecer complexo demais, e precisar ser decomposto, então uma nova WBS deve ser criada.
 
-Cada WBS está ligada a um Ciclo de desenvolvimento. Cada WBS é um ciclo, mas pode haver vários ciclos em paralelo, cada um ligado a uma WBS. Cabe ao Gerente do Projeto administrar esse paralelismo, com a ajuda de um Gestor de Configuração.
+Cada WBS está ligada a um ciclo de desenvolvimento. Cada WBS é um ciclo, mas pode haver vários ciclos em paralelo, cada um ligado a uma WBS. Cabe ao Gerente do Projeto administrar esse paralelismo, com a ajuda de um Gestor de Configuração.
 
 
